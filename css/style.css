@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #d3d3d3;
+}
+
+header{
+    padding: 40px;
+    text-align: center;
+    color: #808080;
+    background: #222121;
+}
+
+nav{
+    padding: 20px 40px;
+    background: #353434;
+}
+
+a{
+    text-decoration: none;
+    color: #808080;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+a.active{
+    color: #ffff00;
+}
+
+.article{
+    padding: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
